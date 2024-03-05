@@ -9,8 +9,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="{{ asset('backend/css/fontawesome.css') }}" rel="stylesheet" />
     <link href="{{ asset('backend/css/style.css') }}" rel="stylesheet" />
-    <link href="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css') }}"
-        rel="stylesheet" />
+
 </head>
 
 <body>
