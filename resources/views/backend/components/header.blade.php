@@ -6,7 +6,7 @@
         </a>
         <div class="float-right h-auto d-flex">
                 <h6>Hello, {{ auth()->user()->name }}</h6>
-                    <a href="{{ route('logout') }}" class="nav-link align-middle px-0"> <i class="fas fa-power-off"></i>
+                    <a href="{{ route('logout') }}" class="nav-link align-middle px-0"> <i class="bi bi-power" style="font-size:18px"></i>
                 </a>
         </div>
 
