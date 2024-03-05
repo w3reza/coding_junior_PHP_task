@@ -22,8 +22,8 @@
     </div>
 </nav>
 <div class="container-fluid">
-    <div class="row flex-nowrap">
-        <div class="col pt-5  py-3 min-vh-100">
+    <div class="row">
+        <div class="col-md-12 content min-vh-100">
                 @yield('content')
         </div>
     </div>

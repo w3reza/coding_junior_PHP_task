@@ -17,15 +17,20 @@
     @include('backend.components.header')
 
     <div class="container-fluid">
-        <div class="row flex-nowrap">
-            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white">
-                @include('backend.components.sidebar')
-            </div>
-            <div class="col pt-5  py-3 min-vh-100">
-                @yield('content')
-            </div>
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-md-3 sidebar">
+            @include('backend.components.sidebar')
+
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-9 content">
+            @yield('content')
+
+          </div>
         </div>
-    </div>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">

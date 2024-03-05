@@ -28,11 +28,17 @@ h1,h2,h3,h4,h5,h6,button,input,textarea{
     height: 30px;
 }
 
-#menu{
-    background: none !important;
-    padding-top: 20px;
-}
-.nav-pills .nav-link{
+.sidebar {
+
+    color: #fff;
+
+  }
+  .content {
+    padding: 20px;
+  }
+
+
+.nav .nav-link{
     color: #000;
     font-size: 14px;
     line-height: 24px;
@@ -55,6 +61,9 @@ h6{
     .mb-0{
         margin-bottom: 2px !important;
     }
+    .nav .nav-link{
+        text-align: center !important;
+    }
 
 }
 
@@ -64,6 +73,9 @@ h6{
     }
     .mb-0{
         margin-bottom: 2px !important;
+    }
+    .nav .nav-link{
+        text-align: center !important;
     }
 
 }
@@ -75,6 +87,9 @@ h6{
     .mb-0{
         margin-bottom: 2px !important;
     }
+    .nav .nav-link{
+        text-align: center !important;
+    }
 
 }
 
@@ -84,6 +99,9 @@ h6{
     }
     .mb-0{
         margin-bottom: 2px !important;
+    }
+    .nav .nav-link{
+        text-align: center !important;
     }
 
 }
